@@ -7,7 +7,7 @@ export const Aside = styled.aside<{ isCadastroPage?: boolean }>`
   height: 100vh;
 
   @media (max-width: 768px) {
-    height: ${(props) => (props.isCadastroPage ? '20vh' : '40vh')};
+    height: ${(props) => (props.isCadastroPage ? '25vh' : '55vh')};
   }
 `
 
@@ -23,16 +23,16 @@ export const BotaoRetorno = styled(Botao)<{ isCadastroPage?: boolean }>`
   }
 
   @media (max-width: 768px) {
-    font-size: 32px;
+    font-size: 24px;
     width: 100%;
   }
 `
 
 export const BotaoTema = styled(Botao)<{ isCadastroPage?: boolean }>`
-  margin-top: 16px;
+  margin-top: 20px;
 
   @media (max-width: 768px) {
-    font-size: ${(props) => (props.isCadastroPage ? '32px' : '20px')};
+    font-size: ${(props) => (props.isCadastroPage ? '24px' : '20px')};
     width: ${(props) => (props.isCadastroPage ? '100%' : '')};
   }
 `

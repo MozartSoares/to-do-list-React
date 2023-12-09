@@ -34,6 +34,7 @@ export const CampoFormulario = styled(Campo)`
 
 export const Opcoes = styled.div`
   margin-bottom: 16px;
+  display: inline;
   p {
     margin-bottom: 6px;
 
@@ -46,7 +47,7 @@ export const Opcoes = styled.div`
     margin-right: 6px;
 
     @media (max-width: 768px) {
-      font-size: 20px;
+      font-size: 16px;
       margin-right: 12px;
     }
   }
