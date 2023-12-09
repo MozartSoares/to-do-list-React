@@ -7,7 +7,7 @@ const temaLight = {
   corFundoFiltroECard: '#fcfcfc',
   corTextoFiltro: '#5e5e5e',
   corDivisoriaBotoes: 'rgba(0, 0, 0, 0.1)',
-  corDescricao: '#8b8b8b'
+  corDescricao: '#5e5e5e'
 }
 
 export default temaLight
